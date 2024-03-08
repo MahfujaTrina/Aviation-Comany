@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #4D5A88;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171">
+   <children>
+      <Label graphicTextGap="0.0" layoutX="132.0" layoutY="23.0" prefHeight="53.0" prefWidth="357.0" style="-fx-background-color: #222B4B;" text="   Contact With Board Member" textFill="WHITE">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="132.0" layoutY="114.0" prefHeight="32.0" prefWidth="88.0" text="Working ID" textFill="WHITE" />
+      <TextField layoutX="300.0" layoutY="114.0" />
+      <Label layoutX="132.0" layoutY="157.0" prefHeight="32.0" prefWidth="157.0" text="Description of agenda" textFill="#fffdfd" />
+      <ComboBox layoutX="300.0" layoutY="240.0" prefHeight="31.0" prefWidth="187.0" />
+      <Label layoutX="132.0" layoutY="246.0" prefHeight="32.0" prefWidth="88.0" text="Time" textFill="WHITE" />
+      <Label layoutX="132.0" layoutY="200.0" prefHeight="32.0" prefWidth="88.0" text="Date" textFill="WHITE" />
+      <ComboBox layoutX="300.0" layoutY="201.0" prefHeight="31.0" prefWidth="187.0" />
+      <TextField layoutX="300.0" layoutY="158.0" />
+      <Button layoutX="222.0" layoutY="299.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="157.0" text="Submit" />
+   </children>
+</AnchorPane>
